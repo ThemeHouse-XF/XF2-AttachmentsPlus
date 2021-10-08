@@ -1,0 +1,6 @@
+{
+    "permission_type": "integer",
+    "interface_group_id": "thattachmentsplus",
+    "display_order": 300,
+    "depend_permission_id": ""
+}

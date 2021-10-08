@@ -1,0 +1,1 @@
+The attachment icon will be displayed as text with the text value provided above, up to a maximum of four letters.

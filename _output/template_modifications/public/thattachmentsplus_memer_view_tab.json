@@ -1,0 +1,9 @@
+{
+    "template": "member_view",
+    "description": "Add attachments list tab",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:tabs:after_recent_content]-->",
+    "replace": "<xf:if is=\"$xf.visitor.canViewThAttachmentsTab()\n\t\t   && $xf.options.thattachmentsplus_profileTab\n\t\t   && $user.showThAttachmentsPlusTab('main')\">\n\t<a href=\"{{ link('members/thattachplus-attachments', $user) }}\"\n\t   rel=\"nofollow\"\n\t   class=\"tabs-tab\"\n\t   id=\"thattachplus-attachments\"\n\t   role=\"tab\">{{ phrase('thattachmentsplus_attachments_tab') }}</a>\n</xf:if>\n<xf:if is=\"$xf.options.thattachmentsplus_splitImageAttachments\n\t\t   && $user.showThAttachmentsPlusTab('images')\">\n\t<a href=\"{{ link('members/thattachplus-images', $user) }}\"\n\t   rel=\"nofollow\"\n\t   class=\"tabs-tab\"\n\t   id=\"thattachplus-images\"\n\t   role=\"tab\">{{ phrase('thattachplus_images') }}</a>\n</xf:if>\n\n$0"
+}

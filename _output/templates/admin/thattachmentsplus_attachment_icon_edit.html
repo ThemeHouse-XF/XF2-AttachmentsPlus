@@ -1,0 +1,55 @@
+<xf:title>
+	<xf:if is="$attachmentIcon.isInsert()">
+		{{ phrase('thattachmentsplus_add_attachment_icon') }}
+		<xf:else />
+		{{ phrase('thattachmentsplus_edit_attachment_icon:') }} {$attachmentIcon.file_extension}
+	</xf:if>
+</xf:title>
+
+<xf:form action="{{ link('th-attachment-icons/save', $attachmentIcon) }}"
+		 class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:formrow label="{{ phrase('thattachmentsplus_file_extension') }}">
+				{$attachmentIcon.file_extension}
+				<xf:hiddenval name="file_extension" value="{$attachmentIcon.file_extension}" />
+			</xf:formrow>
+			<xf:radiorow name="type" label="{{ phrase('thattachmentsplus_icon_type') }}"
+						 value="{$attachmentIcon.type}">
+				<xf:option value="image" label="{{ phrase('thattachmentsplus_image') }}">
+					<xf:textbox name="data[image]" value="{{ $attachmentIcon.type == 'image' ? $attachmentIcon.data : '' }}" />
+					<xf:html>
+						<dfn class="inputChoices-explain">
+						{{ phrase('thattachmentsplus_image_explain') }}
+						</dfn>
+					</xf:html>
+				</xf:option>
+				<xf:option value="icon" label="{{ phrase('thattachmentsplus_icon') }}">
+					<xf:textbox name="data[icon]" label="{{ phrase('thattachmentsplus_icon_class') }}"
+								value="{{ $attachmentIcon.type == 'icon' ? $attachmentIcon.data : '' }}" />
+					<xf:html>
+						<dfn class="inputChoices-explain">
+						{{ phrase('thattachmentsplus_icon_explain') }}
+						</dfn>
+					</xf:html>
+				</xf:option>
+				<xf:option value="text" label="{{ phrase('thattachmentsplus_text') }}">
+					<xf:textbox name="data[text]" label="{{ phrase('thattachmentsplus_text') }}" maxLength="4"
+								value="{{ $attachmentIcon.type == 'text' ? $attachmentIcon.data : '' }}" />
+					<xf:html>
+						<dfn class="inputChoices-explain">
+						{{ phrase('thattachmentsplus_text_explain') }}
+						</dfn>
+					</xf:html>
+				</xf:option>
+			</xf:radiorow>
+
+			<xf:codeeditorrow name="extra_css" label="{{ phrase('thattachmentsplus_extra_css') }}"
+							  class="codeEditor--autoSize codeEditor--proportional" mode="less"
+							  explain="{{ phrase('thattachmentsplus_extra_css_explain') }}"
+							  value="{$attachmentIcon.extra_css}" />
+		</div>
+
+		<xf:submitrow icon="save" />
+	</div>
+</xf:form>

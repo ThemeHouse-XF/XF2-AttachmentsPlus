@@ -1,0 +1,37 @@
+<xf:title>
+	{{ phrase('thattachmentsplus_attachment_icons') }}
+</xf:title>
+
+<xf:pageaction>
+	<xf:button href="{{ link('th-attachment-icons/add') }}" icon="add">
+		{{ phrase('thattachmentsplus_add_icon') }}
+	</xf:button>
+</xf:pageaction>
+
+<div class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:if is="$attachmentIcons is not empty">
+				<xf:datalist>
+					<xf:foreach loop="$attachmentIcons" value="$attachmentIcon">
+						<xf:datarow>
+							<xf:cell class="dataList-cell--min">
+								{{ thattachplus_attachment_icon($attachmentIcon, 'xs') }}
+							</xf:cell>
+							<xf:main href="{{ link('th-attachment-icons/edit', $attachmentIcon) }}"
+									 label="{$attachmentIcon.file_extension}" />
+							<xf:delete href="{{ link('th-attachment-icons/delete', $attachmentIcon) }}" />
+						</xf:datarow>
+					</xf:foreach>
+				</xf:datalist>
+				<xf:else />
+				<div class="block-row">
+					{{ phrase('thattachmentsplus_no_attachment_icons_yet') }}
+				</div>
+			</xf:if>
+		</div>
+		<footer class="block-footer">
+			{{ display_totals($attachmentIcons) }}
+		</footer>
+	</div>
+</div>

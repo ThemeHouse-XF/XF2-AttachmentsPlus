@@ -1,0 +1,284 @@
+{
+    "admin_navigation.thattachmentsplus_attachIcons.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "49b44d261a5d98805b3048b951d4ed8f"
+    },
+    "option.thattachmentsplus_hideEmptyTabs.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "9b2fc7bc42f1817ab2260420f03a4b87"
+    },
+    "option.thattachmentsplus_invalidContentTypes.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "4861575e233443d71aadfdb8b08ea8f4"
+    },
+    "option.thattachmentsplus_profileTab.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "11f5a7f0bc53939f6d4f43163388a7e6"
+    },
+    "option.thattachmentsplus_splitImageAttachments.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "af122ca749e67f716d14a9f9e3ad6d2b"
+    },
+    "option_explain.thattachmentsplus_hideEmptyTabs.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "5b49a47c5788aa5d20db777860472484"
+    },
+    "option_explain.thattachmentsplus_invalidContentTypes.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "4841348883c6c803216778cac8b81558"
+    },
+    "option_explain.thattachmentsplus_profileTab.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.thattachmentsplus_splitImageAttachments.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "b75a045439bb9b4a9c81dc423b67d458"
+    },
+    "option_group.thattachmentsplus.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "c9ed0418c83ced5cb76558d2cfc33d8a"
+    },
+    "option_group_description.thattachmentsplus.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "f55f42bff13b2f3e1108ff956cdaa4e7"
+    },
+    "permission.thattachmentsplus_maxAttachments.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "1adff4a3cc90f1bb05540f95c42487e1"
+    },
+    "permission.thattachmentsplus_maxDiskSpace.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "fe96558d9a89acb129ea916248d97e49"
+    },
+    "permission.thattachmentsplus_viewAttachmentManager.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "93812f4f5334474a64473475d481058c"
+    },
+    "permission.thattachmentsplus_viewAttachmentTab.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "69310dec75a365751e2fd9e4c524f3e8"
+    },
+    "permission_interface.thattachmentsplus.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "c9ed0418c83ced5cb76558d2cfc33d8a"
+    },
+    "thattachmentsplus_add_attachment_icon.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "414f73be46a9017ce8704a848b8817d9"
+    },
+    "thattachmentsplus_add_icon.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "695745a7757a0dbcb8e6090c7dca437e"
+    },
+    "thattachmentsplus_attachment_icons.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "ff18e37f0b02af5e2776f9c25edc156b"
+    },
+    "thattachmentsplus_attachment_manager.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "7e2708aeb65763c54052f57ed1a1ec1d"
+    },
+    "thattachmentsplus_attachment_space_usage.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "0fafdc63706bc716b64593727629eada"
+    },
+    "thattachmentsplus_attachments_tab.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "7e2708aeb65763c54052f57ed1a1ec1d"
+    },
+    "thattachmentsplus_conversation_message.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "4c2a8fe7eaf24721cc7a9f0175115bd4"
+    },
+    "thattachmentsplus_disk_space_usage.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "67ffa2474a4aaf8434d1108cb7db340c"
+    },
+    "thattachmentsplus_edit_attachment_icon.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "1cb6052f554b251e9ec6a50d7f244649"
+    },
+    "thattachmentsplus_extra_css.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "d8e4d1f5e445107e505b2cf63a1fb65c"
+    },
+    "thattachmentsplus_extra_css_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "aa9fff9790879e5b438e675acafa6e26"
+    },
+    "thattachmentsplus_file_extension.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "e890db27ea11209ef49b6cc61a177448"
+    },
+    "thattachmentsplus_icon.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "817434295a673aed431435658b65d9a7"
+    },
+    "thattachmentsplus_icon_class.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "de0ad6b7a678e57fabc12bce050c79dc"
+    },
+    "thattachmentsplus_icon_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "c5ba21e51cf591172771edd088906702"
+    },
+    "thattachmentsplus_icon_type.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "82fe224f474ec5cca0cb1c9e89ddd2d5"
+    },
+    "thattachmentsplus_image.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "be53a0541a6d36f6ecb879fa2c584b08"
+    },
+    "thattachmentsplus_image_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "9b40adbbbc128da4b43f469d12692a3b"
+    },
+    "thattachmentsplus_maximum_storage_space_exceeded.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "5ed6be4ed1d9e502240cbb95c1a3a6c1"
+    },
+    "thattachmentsplus_no_attachment_icons_yet.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "2e266b94d4f303401628f6cc53321109"
+    },
+    "thattachmentsplus_no_attachments_yet.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "9d9cecb0fc35f4dee2b698e82d0fb887"
+    },
+    "thattachmentsplus_post.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "03d947a2158373c3b9d74325850cb8b9"
+    },
+    "thattachmentsplus_text.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "9dffbf69ffba8bc38bc4e01abf4b1675"
+    },
+    "thattachmentsplus_text_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "4daa8d21f5d640ff58c55143ab0e6013"
+    },
+    "thattachmentsplus_view_x.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "20090f670370627caee1498877965c07"
+    },
+    "thattachmentsplus_x_of_y_attachments.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "c553c3ee8f7e3b5f438eb8d570175a9a"
+    },
+    "thattachmentsplus_x_of_y_disk_space.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "9faa5cf011ffb4bf74d3797c591099dc"
+    },
+    "thattachmentsplus_xs_attachments.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "5d71a0b50fd97f4dd47f6f9d46cb4402"
+    },
+    "thattachmentsplus_xs_images.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "9ee68a52d7479665e9c3a3c958068cef"
+    },
+    "thattachmentsplus_you_have_reached_your_maximum_number_of_attachments.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "a99eb14b2c831b5fba37589bf0ab055b"
+    },
+    "thattachplus_images.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "fff0d600f8a0b5e19e88bfb821dd1157"
+    }
+}

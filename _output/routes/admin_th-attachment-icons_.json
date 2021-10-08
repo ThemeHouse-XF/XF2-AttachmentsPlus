@@ -1,0 +1,11 @@
+{
+    "route_type": "admin",
+    "route_prefix": "th-attachment-icons",
+    "sub_name": "",
+    "format": ":str<file_extension>",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\AttachmentsPlus:AttachmentIcons",
+    "context": "thattachmentsplus_attachIcons",
+    "action_prefix": ""
+}

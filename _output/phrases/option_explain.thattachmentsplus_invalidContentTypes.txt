@@ -1,0 +1,1 @@
+A list of content types to be ignored by the attachment manager, one per line. This option is best left alone if you do not know what you're doing or have been instructed to do.

@@ -1,0 +1,9 @@
+{
+    "template": "account_visitor_menu",
+    "description": "Add attachment manager link",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:content_links:bottom]-->",
+    "replace": "<xf:if is=\"$xf.visitor.canViewThAttachmentManager()\">\n\t<li>\n\t\t<a href=\"{{ link('account/th-attachment-manager') }}\" class=\"menu-linkRow\">\n\t\t\t{{ phrase('thattachmentsplus_attachment_manager') }}\n\t\t</a>\n\t</li>\n</xf:if>\n$0"
+}

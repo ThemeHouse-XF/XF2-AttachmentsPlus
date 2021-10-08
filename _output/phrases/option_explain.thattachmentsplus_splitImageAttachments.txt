@@ -1,0 +1,1 @@
+If "Add attachments profile tab" and this option are enabled, the normal "Attachments" profile tab will not include any image attachments, and a separate profile tab with only image attachments will be shown.

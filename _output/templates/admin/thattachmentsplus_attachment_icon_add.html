@@ -1,0 +1,14 @@
+<xf:title>
+	{{ phrase('thattachmentsplus_add_attachment_icon') }}
+</xf:title>
+
+<xf:form action="{{ link('th-attachment-icons/add') }}"
+		 class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow name="file_extension"
+						   label="{{ phrase('thattachmentsplus_file_extension') }}"/>
+		</div>
+		<xf:submitrow icon="submit" />
+	</div>
+</xf:form>

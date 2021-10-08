@@ -1,0 +1,9 @@
+{
+    "template": "account_wrapper",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:profile_links:bottom]-->",
+    "replace": "<xf:if is=\"$xf.visitor.canViewThAttachmentManager()\">\n\t<a class=\"blockLink {{ $pageSelected == 'thAttachmentManager' ? 'is-selected' : '' }}\"\n\t   href=\"{{ link('account/th-attachment-manager') }}\">\n\t\t{{ phrase('thattachmentsplus_attachment_manager') }}\n\t</a>\n</xf:if>\n$0"
+}

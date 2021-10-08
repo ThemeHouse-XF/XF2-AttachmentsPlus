@@ -1,0 +1,1 @@
+You may provide some extra styling that will be applied to the attachment icon here. Less and XenForo template syntax are supported.

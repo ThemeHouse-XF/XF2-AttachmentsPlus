@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "account",
+    "sub_name": "th-attachment-manager",
+    "format": "th-attachment-manager/:int<attachment_id>",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\AttachmentsPlus:AttachmentManager",
+    "context": "",
+    "action_prefix": ""
+}

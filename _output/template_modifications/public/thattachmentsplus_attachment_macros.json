@@ -1,0 +1,9 @@
+{
+    "template": "attachment_macros",
+    "description": "Replace default attachment icon",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#(<i aria-hidden=\"true\"></i>|<xf:fa icon=\"{\\$attachment.icon}\" />)#",
+    "replace": "{{ thattachplus_attachment_icon($attachment) }}"
+}

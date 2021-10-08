@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Entity\\Attachment",
+    "to_class": "ThemeHouse\\AttachmentsPlus\\XF\\Entity\\Attachment",
+    "execute_order": 10,
+    "active": true
+}

@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "content",
+    "display_order": 210,
+    "link": "th-attachment-icons",
+    "icon": "",
+    "admin_permission_id": "attachment",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": false
+}

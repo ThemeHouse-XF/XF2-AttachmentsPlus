@@ -1,0 +1,1 @@
+The attachment icon will be inserted as image with the URL above. As the size may scale, an svg image is generally recommended for best quality. Minimum size for non-svg-images should be <em>75x100px</em>.

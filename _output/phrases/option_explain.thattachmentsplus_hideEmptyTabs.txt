@@ -1,0 +1,1 @@
+If enabled, empty attachment profile tabs will be hidden from view. This causes an additional database query per enabled tab.

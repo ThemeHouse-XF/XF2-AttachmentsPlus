@@ -1,0 +1,61 @@
+<xf:title>{{ phrase('thattachmentsplus_xs_images', {'user': $user.username}) }}</xf:title>
+
+<xf:head option="metaNoindex"><meta name="robots" content="noindex" /></xf:head>
+
+<xf:breadcrumb href="{{ link('members', $user) }}">{$user.username}</xf:breadcrumb>
+
+<div class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:if is="$attachments is not empty">
+				<xf:datalist>
+					<xf:foreach loop="$attachments" value="$attachment">
+						<xf:set var="$handler" value="{$handlers.{$attachment.content_type}}" />
+						<xf:if is="$attachment.Container && ($attachment.Container.canView() || ($handler && $handler.canView($attachment, $attachment.Container)))">
+							<xf:datarow>
+								<xf:cell class="dataList-cell--min dataList-cell--alt dataList-cell--image dataList-cell--imageMediumWide"
+										 href="{{ link('account/th-attachment-manager/view', $attachment) }}" target="_blank">
+									<xf:if is="$attachment.has_thumbnail">
+										<img src="{$attachment.thumbnail_url}" alt="{$attachment.filename}" />
+										<xf:else />
+										{{ thattachplus_attachment_icon($attachment, 's') }}
+									</xf:if>
+								</xf:cell>
+
+								<xf:cell href="{{ link('account/th-attachment-manager/view', $attachment) }}"
+										 class="dataList-cell--main" target="_blank">
+									<div class="dataList-mainRow">{$attachment.filename}</div>
+									<div class="dataList-subRow">
+										<ul class="listInline listInline--bullet">
+											<li><xf:date time="{$attachment.Data.upload_date}" /></li>
+											<li>{$attachment.file_size|file_size}</li>
+										</ul>
+									</div>
+								</xf:cell>
+
+								<xf:cell href="{{ (!$attachment.unassociated && $attachment.getContainerLink()) ? $attachment.getContainerLink() : link('attachments/view', $attachment) }}"
+										 target="{{ !$attachment.unassociated ? '_blank' : '' }}"
+										 class="dataList-cell--action">
+									<xf:if is="!$attachment.unassociated">
+										{{ phrase('thattachmentsplus_view_x', {'type': $handler.getContentTypePhrase()}) }}
+									</xf:if>
+								</xf:cell>
+							</xf:datarow>
+						</xf:if>
+					</xf:foreach>
+				</xf:datalist>
+				<xf:else />
+				<div class="block-row">
+					{{ phrase('thattachmentsplus_no_attachments_yet') }}
+				</div>
+			</xf:if>
+		</div>
+		<footer class="block-footer">
+			{{ display_totals($attachments, $total) }}
+		</footer>
+	</div>
+
+	<xf:pagenav link="members/thattachplus-images" data="{$user}"
+				page="{$page}" perpage="{$perPage}" total="{$total}"
+				wrapperclass="block-outer block-outer--after" />
+</div>

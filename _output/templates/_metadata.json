@@ -1,0 +1,42 @@
+{
+    "admin/thattachmentsplus_attachment_icon_add.html": {
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "1336b45bd83e69d4007d99a3608ef65e"
+    },
+    "admin/thattachmentsplus_attachment_icon_edit.html": {
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "bfde41cbe07983c06d923d4ead1b3f09"
+    },
+    "admin/thattachmentsplus_attachment_icon_list.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ea4e99fac5df27f22b8f19acde7c0667"
+    },
+    "public/thattachmentsplus_attachmentIcons_core.less": {
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "00970ec9f5a7c4141022a8c74eba246b"
+    },
+    "public/thattachmentsplus_attachment_manager_delete.html": {
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "74ca26b6f42833de146c2ad30dc46d3a"
+    },
+    "public/thattachmentsplus_attachment_manager_list.html": {
+        "version_id": 1000194,
+        "version_string": "1.0.1 Patch Level 4",
+        "hash": "3e188db29727a5f40392d2f9e3ff84b1"
+    },
+    "public/thattachplus_member_attachments.html": {
+        "version_id": 1000197,
+        "version_string": "1.0.1 Patch Level 7",
+        "hash": "2f488466d8642b7119ee7d2de161ab7e"
+    },
+    "public/thattachplus_member_images.html": {
+        "version_id": 1000197,
+        "version_string": "1.0.1 Patch Level 7",
+        "hash": "dbac9a4fb4d12e50d45bc5b98847d54c"
+    }
+}

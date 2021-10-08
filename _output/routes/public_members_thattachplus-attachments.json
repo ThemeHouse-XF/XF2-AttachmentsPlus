@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "members",
+    "sub_name": "thattachplus-attachments",
+    "format": ":int<user_id,username>/thattachplus-attachments/",
+    "build_class": "",
+    "build_method": "",
+    "controller": "XF:Member",
+    "context": "",
+    "action_prefix": "ThattachplusAttachments"
+}

@@ -1,0 +1,1 @@
+The attachment icon will be inserted as <em>&lt;i/&gt;</em> element with the class defined above. For example, the Font Awesome icon <i class="fab fa-font-awesome"></i> could be created with the value <em>fab fa-font-awesome</em>.
